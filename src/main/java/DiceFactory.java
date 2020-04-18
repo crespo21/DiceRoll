@@ -1,8 +1,8 @@
-import diceAlgorithm.diceAlgorithm;
-
-public class DiceFactory implements diceAlgorithm {
-
-    static int  makeDie() {
-        return diceAlgorithm.roll();
+public class DiceFactory implements Algorithm {
+    public static Die makeDie() {
+        return theDie;
+    }
+    public static Die makeDie20() {
+        return theDie1;
     }
 }
