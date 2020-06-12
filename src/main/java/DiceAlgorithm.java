@@ -7,5 +7,3 @@ public interface DiceAlgorithm {
         Die theDie10 = new Die(10,1,1,1,1,1,1,1,1,1,1);
     }
 
-
-

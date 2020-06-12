@@ -1,8 +1,11 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Die{
     public int sides;
     int values = 0;
     int[] probabilities;
-    private int integer;
+    Integer integer = new Integer(sides);
     //Create the constructor for Die
     //to define the number of sides the die class would have
     //Extend the constructor of Die class  so
@@ -41,7 +44,7 @@ public class Die{
                  else{
                        percentages[i] = chances;
                  }
-                System.out.println("Weighted Dice:" + percentages[i]);
+//                System.out.println("Weighted Dice:" + percentages[i]);
             }
             // create a random variable,
             //Then compare the random variable with

@@ -1,8 +1,12 @@
-public class DiceFactory implements Algorithm {
+
+//DiceFactory class implements DiceAlgorithm interface
+public class DiceFactory implements DiceAlgorithm {
+    //makeDie calls Die class with 6 sides from the interface
     public static Die makeDie() {
         return theDie;
     }
-    public static Die makeDie20() {
-        return theDie1;
+    //makeDie10 calls Die class with 10 sides from the interface
+    public static Die makeDie10() {
+        return theDie10;
     }
 }
