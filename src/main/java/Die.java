@@ -1,11 +1,9 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 public class Die{
     public int sides;
     int values = 0;
     int[] probabilities;
-    Integer integer = new Integer(sides);
+    Integer integer = sides;
     //Create the constructor for Die
     //to define the number of sides the die class would have
     //Extend the constructor of Die class  so
@@ -68,7 +66,7 @@ public class Die{
         theDice.roll();
     }
 
-    public boolean equals(Die obj) {
-        return equals(obj);
-    }
+//    public boolean equals(Die obj) {
+//        return equals(obj);
+//    }
 }
